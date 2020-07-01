@@ -1,0 +1,9 @@
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript'
+
+page {
+  fluidtemplate {
+    layoutRootPath = EXT:ronline_base_stepackage/Resources/Private/Layouts/Page/
+    partialRootPath = EXT:ronline_base_sitepackage/Resources/Private/Partials/Page/
+    templateRootPath = EXT:ronline_base_sitepackage/Resources/Private/Templates/Page/
+  }
+}
